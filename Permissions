@@ -1,0 +1,43 @@
+r-read
+w-write
+x-execution
+
+rwx          rwx       rwx
+user        groups    others
+
+
+r-4
+w-2
+x-1
+------
+ r+w+x=7
+ -------
+ 
+ 
+ default file permission-->644
+ default directory persmisson-->755
+ umash default permisson -->0022
+ full permission--777
+ read+write ermisson-->666
+ 
+ to give permission to the file 
+ #chmod 777 filename
+ to give write permissions
+ #chmod +r filename
+ to remove write permissios
+ #chmod -r filenae
+ 
+ to change directory and subdirectory permissions
+ #chmod -R 777 filename
+ 
+ to know the file on the time based
+ #ls -lt 
+ 
+ to see recursive order(desindeing order)
+ #ls -ltr
+ 
+ to copy one file into one directory
+ #cp copyfilename directoryname/--->#cp soure destination/
+ 
+ to copy one directory into anthoer
+ #cp -rf source destination
