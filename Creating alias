@@ -1,0 +1,20 @@
+to create alias
+#alias ll='ls -al'-->if we enter ll it will show ls -al output
+
+
+to see top 10 lines data
+#head -10 filename
+
+to see bottom 10 lines data
+#tail -10 filename
+
+to know the process state of server
+#ps -ef
+grep Global regular Expression
+to search particular string we have use grep cmd
+#grep (search string) (filename)
+
+
+to know the particular line of the string
+#grep -n  (search string) (filename)
+
