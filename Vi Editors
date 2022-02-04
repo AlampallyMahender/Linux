@@ -1,0 +1,43 @@
+to create new line bilow the line
+# ESC+o
+
+to create new line Above the line
+# ESC+O
+
+to search in anything vi editers
+# ESC+/
+
+to delete file 
+#rm filename
+ 
+ to delete file directly without conformation
+ #rm -rf filename
+ 
+ to delete file directly with conformation
+ #rm -i filename
+ 
+ to delete multipul files
+ #rm file1 file2 file3 file4
+
+to delete complete data from the directory
+#rm -rf *
+
+nested view to create directory in that directory need to create another directory(nested directorys)
+#mkdir -p d1/d2/d3 
+
+to remove directory
+#rmdir dirname
+
+to know the shells
+#cat /etc/shells
+ by default shell is bin bash
+ 
+ to know default shell
+ #echo $SHELL
+ [ec2-user@ip-10-1-2-164 ~]$ echo $SHELL
+/bin/bash
+
+
+
+
+
