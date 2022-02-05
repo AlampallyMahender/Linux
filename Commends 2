@@ -1,0 +1,52 @@
+by using top we know the server perfomence
+#top
+ 
+ 
+ to kill the process 
+ #kill -9 process ID
+ 
+ to know about the commends in the linux
+ #man commendname
+ 
+ to know the file system
+ #df
+ 
+ to know the size file or directory or software
+ #du -sh filename/directoryname/softname
+ 
+ to know the file exact path
+ #which filename/directoryname/softname(present path data will find)
+ or
+  #whereis filename/directoryname/softname(entire root it will search)
+  
+  create passwordless authentication
+  ==================================
+  
+  
+  
+  
+  
+  
+  to check the softeware installed or not
+  #rpm -qa toolname/softwarename
+  
+  
+  to extract tar file
+  #tar -xvf filename
+  
+  
+  to check the content in the tar file with extraction
+  #tar -tvf filename
+  
+  to compres the file
+  #tar -cvf newfile originalfilename
+  
+  
+  unzip the file
+  #unzip filename
+  
+  to see the cut data 
+  #cut -cnuberoflines filename/direcrory
+  
+  
+  
